@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #034E85;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+h1 {
+    padding: 30px 0 0 45px;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: White;
+}
+
+h1 a {
+    color: White;
+    text-decoration: none;
+}
+
+h2 {
+    position: relative;
+    top: -3px;
+    font-size: 1em;
+    padding-left: 45px;
+    color: White;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #5F5F5F;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: Black;
+}
+
+
+p {
+    padding: 10px 0;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+a {
+    color: #FF3300;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    padding: 4px;
+    border: 0px solid #DADADA;
+}
+
+#main {
+    position: relative;
+    margin: 0 auto;
+    width: 930px;
+    text-align: left;
+    color: #034E85;
+}
+
+#header {
+    height: 126px;
+    background: #034E85 url(../images/template/header.jpg) no-repeat;
+}
+
+#menu {
+    position: absolute;
+    top: 85px;
+    right: 55px;
+    height: 41px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    display: block;
+    height: 41px;
+}
+
+#menu ul li a {
+    position: relative;
+    float: left;
+    display: block;
+    padding: 0 0 0 31px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    outline: none;
+}
+
+#menu ul li a span {
+    float: left;
+    padding: 0 51px 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #A52A2A;
+    cursor: pointer;
+}
+
+#menu ul li a.blue {
+    left: 128px;
+    background: url(../images/template/menu_left_blue.gif) no-repeat top left;
+    z-index: 5;
+}
+
+#menu ul li a.blue span {
+    background: url(../images/template/menu_right_blue.gif) no-repeat top right;
+}
+
+#menu ul li a.yellow {
+    left: 96px;
+    background: url(../images/template/menu_left_yellow.gif) no-repeat top left;
+    z-index: 4;
+}
+
+#menu ul li a.yellow span {
+    background: url(../images/template/menu_right_yellow.gif) no-repeat top right;
+}
+
+
+#menu ul li a.orange {
+    left: 32px;
+    background: url(../images/template/menu_left_orange.gif) no-repeat top left;
+    z-index: 2;
+}
+
+#menu ul li a.orange span {
+    background: url(../images/template/menu_right_orange.gif) no-repeat top right;
+}
+
+#menu ul li a:hover span {
+    color: #BE6565;
+}
+
+#menu ul li a#active, #menu ul li a#active span {
+    height: 41px;
+    color: #A52A2A;
+    z-index: 10;
+}
+
+#middle_outer {
+    background: #FBFBF5 url(../images/template/middle_outer.gif) repeat-y;
+}
+
+#middle_mid {
+    height: 1%;
+    background: url(../images/template/middle_mid_blue.jpg) no-repeat bottom;
+}
+
+#middle_inner {
+    height: 1%;
+    padding: 40px 45px 0 45px;
+    background: url(../images/template/middle_inner_blue.jpg) no-repeat top;
+}
+
+#sidebar {
+    float: left;
+    margin-bottom: 45px;
+    padding-right: 30px;
+    width: 260px;
+    border-right: 1px solid #95E8EE;
+}
+
+#sidebar p {
+    text-align: left;
+}
+
+#search {
+    width: 260px;
+    height: 70px;
+}
+
+#search form {
+}
+
+#search input.text {
+    float: left;
+    display: block;
+    padding: 5px 3px;
+    width: 175px;
+    font-size: 15px;
+    background: #F9F9F9 url(../images/template/input_text.gif) repeat-x top;
+    border: 1px solid #DADADA;
+}
+
+#search input.submit {
+    float: right;
+    display: block;
+    padding: 6px 0;
+    width: 70px;
+    font-weight: normal;
+    font-size: 12px;
+    color: White;
+    background: #797979 url(../images/template/input_submit.gif) repeat-x top;
+    border: none;
+    cursor: pointer;
+}
+
+#img1 {
+    display: block;
+    margin-bottom: 40px;
+}
+
+#sidebar ul {
+    padding: 10px 0;
+    list-style: none;
+}
+
+#sidebar ul li {
+    padding: 0;
+    line-height: 2.2em;
+}
+
+#sidebar ul li a {
+    padding: 0;
+}
+
+#right {
+    float: right;
+    padding-bottom: 30px;
+    width: 520px;
+}
+
+.box {
+    margin: 10px 0 30px 0;
+}
+
+.firsth4 {
+    padding-top: 20px;
+}
+
+.imgright {
+    float: right;
+    margin: 0 0 5px 20px;
+}
+
+#right ul {
+    padding: 10px 0 10px 40px;
+}
+
+#right ul li {
+    padding: 0;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+#footer {
+}
+
+#footer p {
+    padding-bottom: 20px;
+    text-align: center;
+    color: White;
+}
+
+#footer  a {
+    color: #Ff9900;
+}
+
+#trailimageid
+{
+	font-size: 1em;
+    color: #5F5F5F;
+	position: absolute;
+	visibility: hidden;
+	left: 0px;
+	top: 0px;
+	width: 460px;
+	height: 0px;
+	z-index: 200;
+}
+.enfasis {
+    font-size: 1em;
+	color: #610B0B;
+	padding: 10px 0;
+    line-height: 1.7em;
+    text-align: justify;
+}
